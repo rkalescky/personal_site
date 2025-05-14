@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Dr. Robert Kalescky &#8212; Robert Kalescky</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/robert_kalescky.jpg" class="logo__image only-light" alt="Robert Kalescky - Home"/>
+    <script>document.write(`<img src="_static/robert_kalescky.jpg" class="logo__image only-dark" alt="Robert Kalescky - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Dr. Robert Kalescky
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/rkalescky/robert.kalescky.org" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/rkalescky/robert.kalescky.org/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/index.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Dr. Robert Kalescky</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research">Research</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expertise">Expertise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-reviewed-publications">Peer-Reviewed Publications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publications">Publications</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="dr-robert-kalescky">
+<h1>Dr. Robert Kalescky<a class="headerlink" href="#dr-robert-kalescky" title="Link to this heading">#</a></h1>
+<p>I’m currently a Postdoctoral Research Fellow in the Department of Chemistry at Southern Methodist University (SMU) working with <a class="reference external" href="http://faculty.smu.edu/ptao/">Peng Tao</a> on understanding protein allostery and reactions involving proteins. <code class="xref download docutils literal notranslate"><span class="pre">Resume</span></code>, <code class="xref download docutils literal notranslate"><span class="pre">Curriculum</span> <span class="pre">Vitae</span></code></p>
+<p>I’m an avid distance runner who enjoys training for and running marathons.</p>
+<section id="research">
+<h2>Research<a class="headerlink" href="#research" title="Link to this heading">#</a></h2>
+<p>My chemical research career has spanned a wide breadth of length and time scales ranging from the most accurate quantum calculations published for several small molecules to classical molecular dynamics simulations of proteins reaching hundreds of nanoseconds.</p>
+</section>
+<section id="expertise">
+<h2>Expertise<a class="headerlink" href="#expertise" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Programming in Fortran 77/95, C, C++, Objective-C, Python, Visual Basic</p></li>
+<li><p>Parallel programing using MPI, OpenMP, Pthreads, CUDA, OpenCL</p></li>
+<li><p>Scripting in Bash, CSH, AWK, Perl, sed, Tcl, Visual Basic for Applications</p></li>
+<li><dl class="simple">
+<dt>Installation and application of quantum chemical and molecular dynamics programs on High Performance Computing (HPC) clusters and workstations:</dt><dd><ul>
+<li><p>Quantum chemical programs: Gaussian, Q-Chem, GAMESS, CFOUR, Molpro, NWChem, DIRAC, ORCA</p></li>
+<li><p>Molecular dynamics programs: CHARMM, NAMD, LAMMPS, Amber, MPDyn, GROMACS, OpenMM</p></li>
+<li><p>Molecular visualization programs: VMD, Chimera, Avogadro, IQmol, POV-Ray</p></li>
+<li><p>Molecular desktop programs: Spartan, SYBYL</p></li>
+<li><p>Calculation of: optimized geometries, transition states, reaction paths, potential energy surfaces, spectroscopic information, binding free energies</p></li>
+<li><p>Quantum mechanical methods used: Hartree-Fock, Density Functional Theory, Möller-Plesset, Coupled Cluster</p></li>
+<li><p>HPC clusters used: ManeFrame, SMUHPC, CATCO (SMU); Stampede (UT); Big Bird (UTD)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>15 years administration experience in UNIX using Linux (Red Hat and Debian derivatives), Mac OS X, FreeBSD, and Solaris including installation and configuration</p></li>
+<li><p>10 years high performance and scientific programming experience</p></li>
+<li><p>Structured writing and documentation in LaTeX, BibTeX, reStructuredText, Sphinx, MediaWiki, HTML</p></li>
+<li><p>Source code revision control using Git, Mercurial, Subversion</p></li>
+</ul>
+</section>
+<section id="peer-reviewed-publications">
+<h2>Peer-Reviewed Publications<a class="headerlink" href="#peer-reviewed-publications" title="Link to this heading">#</a></h2>
+<ol class="arabic simple" start="14">
+<li><p>Kalescky, R.; Liu, J.; Tao, P. Identifying Key Residues for Protein Allostery through Rigid Residue Scan. <em>J. Phys. Chem. A</em> <strong>2015</strong>, <em>119</em>, 1689-1700. <a href="http://pubs.acs.org/doi/abs/10.1021/jp5083455" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="13">
+<li><p>Kalescky, R.; Zou, W.; Kraka, E.; Cremer, D. Quantitative Assessment of the Multiplicity of Carbon-Halogen Bonds: Carbenium and Halonium Ions with F, Cl, Br, and I. <em>J. Phys. Chem. A</em> <strong>2014</strong>, <em>118</em>, 1948–1963. <a href="http://pubs.acs.org/doi/abs/10.1021/jp4120628" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="12">
+<li><p>Kalescky, R.; Kraka, E.; Cremer, D. Accurate Determination of the Binding Energy of the Formic Acid Dimer: The Importance of Geometry Relaxation. <em>J. Chem. Phys.</em> <strong>2014</strong>, <em>140</em>, 084315. <a href="http://scitation.aip.org/content/aip/journal/jcp/140/8/10.1063/1.4866696" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="11">
+<li><p>Kalescky, R.; Kraka, E.; Cremer, D. Are Carbon-Halogen Double and Triple Bonds Possible? <em>Int. J. Quantum Chem.</em> <strong>2014</strong>, <em>114</em>, 1060–1072. <a href="http://onlinelibrary.wiley.com/doi/10.1002/qua.24626/abstract" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="10">
+<li><p>Kalescky, R.; Kraka, E.; Cremer, D. Description of Aromaticity with the Help of Vibrational Spectroscopy: Anthracene and Phenanthrene. <em>J. Phys. Chem. A</em> <strong>2014</strong>, <em>118</em>, 223–237. <a href="http://pubs.acs.org/doi/abs/10.1021/jp4092514" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="9">
+<li><p>Kalescky, R.; Kraka, E.; Cremer, D. New Approach to Tolman’s Electronic Parameter Based on Local Vibrational Modes. <em>Inorg. Chem.</em> <strong>2014</strong>, <em>53</em>, 478–495. <a href="http://pubs.acs.org/doi/abs/10.1021/ic4024663" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="8">
+<li><p>Kalescky, R.; Zou, W.; Kraka, E.; Cremer, D. Vibrational Properties of the Isotopomers of the Water Dimer Derived From Experiment and Computations. <em>Aust. J. Chem.</em> <strong>2014</strong>, <em>67</em>, 426–434. <a href="http://www.publish.csiro.au/paper/CH13479.htm" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="7">
+<li><p>Kalescky, R.; Kraka, E.; Cremer, D. Identification of the Strongest Bonds in Chemistry. <em>J. Phys. Chem. A</em> <strong>2013</strong>, <em>117</em>, 8981–8995. <a href="http://pubs.acs.org/doi/abs/10.1021/jp406200w" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="6">
+<li><p>Kalescky, R.; Kraka, E.; Cremer, D. Local Vibrational Modes of the Formic Acid Dimer – The Strength of the Double Hydrogen Bond. <em>Mol. Phys.</em> <strong>2013</strong>, <em>111</em>, 1497–1510. <a href="http://www.tandfonline.com/doi/abs/10.1080/00268976.2013.796070#preview" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="5">
+<li><p>Zou, W.; Kalescky, R.; Kraka, E.; Cremer, D. Relating Normal Vibrational Modes to Local Vibrational Modes: Benzene and Naphthalene. <em>J. Mol. Model.</em> <strong>2012</strong>, <em>19</em>, 2865–2877. <a href="http://link.springer.com/article/10.1007%2Fs00894-012-1697-4" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="4">
+<li><p>Kalescky, R.; Zou, W.; Kraka, E.; Cremer, D. Local Vibrational Modes of the Water Dimer – Comparison of Theory and Experiment. <em>Chem. Phys. Lett.</em> <strong>2012</strong>, <em>554</em>, 243–247. <a href="http://www.sciencedirect.com/science/article/pii/S0009261412012146" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="3">
+<li><p>Zou, W.; Kalescky, R.; Kraka, E.; Cremer, D. Relating Normal Vibrational Modes to Local Vibrational Modes with the Help of an Adiabatic Connection Scheme. <em>J. Chem. Phys.</em> <strong>2012</strong>, <em>137</em>, 084114. <a href="http://scitation.aip.org/content/aip/journal/jcp/137/8/10.1063/1.4747339" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple" start="2">
+<li><p>Ranatunga, U.; Kalescky, R.; Chiu, C.; Nielsen, S. Molecular Dynamics Simulations of Surfactant Functionalized Nanoparticles in the Vicinity of an Oil/Water Interface. <em>J. Phys. Chem. C</em> <strong>2010</strong>, <em>114</em>, 12151–12157. <a href="http://pubs.acs.org/doi/abs/10.1021/jp105355y" target="_blank">PDF</a></p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Kalescky, R.; Shinoda, W.; Moore, P.; Nielsen, S. Area Per Ligand as a Function of Nanoparticle Radius: A Theoretical and Computer Simulation Approach. <em>Langmuir</em> <strong>2009</strong>, <em>25</em>, 1352–1359. <a href="http://pubs.acs.org/doi/abs/10.1021/la8032918" target="_blank">PDF</a></p></li>
+</ol>
+</section>
+<section id="publications">
+<h2>Publications<a class="headerlink" href="#publications" title="Link to this heading">#</a></h2>
+<ol class="arabic simple" start="2">
+<li><p>Kalescky, R. Description of the Strength of Chemical Bonds Utilizing Local Vibrational Modes. Ph.D. Dissertation, Southern Methodist University, Dallas, TX, <strong>2014</strong>.</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Kalescky, R. Area Per Ligand as a Function of Nanoparticle Radius: A Theoretical and Computer Simulation Approach. M.S. Thesis, University of Texas at Dallas, Dallas, TX, <strong>2009</strong>. <a href="http://gradworks.umi.com/14/70/1470836.html" target="_blank">PDF</a></p></li>
+</ol>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research">Research</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expertise">Expertise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-reviewed-publications">Peer-Reviewed Publications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publications">Publications</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Robert Kalescky
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
