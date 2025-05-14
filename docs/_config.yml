@@ -1,0 +1,16 @@
+title: Robert Kalescky
+author: Robert Kalescky
+logo: robert_kalescky.jpg
+copyright: "2025"
+
+execute:
+  execute_notebooks: force
+
+repository:
+  url: https://github.com/rkalescky/robert.kalescky.org
+  path_to_book: docs
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
