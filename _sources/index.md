@@ -13,6 +13,8 @@
   - [Robert Kalescky](https://scholar.google.com/citations?hl=en&user=EVnwMqcAAAAJ)
 * - GitHub:
   - [rkalescky](https://github.com/rkalescky)
+* - LinkedIn:
+  - [Robert Kalescky](https://www.linkedin.com/in/robert-kalescky-054b5640/)
 * - *Curriculum Vitae*:
   - [CV](Robert_Kalescky_CV.pdf)
 ```
