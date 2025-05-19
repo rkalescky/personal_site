@@ -15,8 +15,8 @@
   - [rkalescky](https://github.com/rkalescky)
 * - LinkedIn:
   - [Robert Kalescky](https://www.linkedin.com/in/robert-kalescky-054b5640/)
-* - *Curriculum Vitae*:
-  - [CV](Robert_Kalescky_CV.pdf)
+* - Professional Profiles:
+  - [*Curriculum Vitae*](Robert_Kalescky_CV.pdf), [Résumé](Robert_Kalescky_Resume.pdf)
 ```
 
 ## Principal Scientist
@@ -59,7 +59,7 @@ August 2001 to May 2006
 
 ## Research Experience
 
-**Principal Scientist** -- May 2024 to Present  
+**Principal Scientist** -- May 2024 to May 2025  
 [O'Donnell Data Science and Research Computing Institute](https://www.smu.edu/provost/odonnell-institute)  
 Southern Methodist University, Dallas, Texas  
 
