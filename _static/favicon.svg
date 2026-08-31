@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RK">
+  <rect width="64" height="64" rx="12" fill="#0b3d5c"/>
+  <text x="32" y="43" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-size="34"
+        font-weight="700" fill="#ffffff" letter-spacing="-1">RK</text>
+</svg>
