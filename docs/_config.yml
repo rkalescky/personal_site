@@ -1,10 +1,7 @@
 title: Robert Kalescky
 author: Robert Kalescky
 logo: robert_kalescky.jpg
-copyright: "2025"
-
-execute:
-  execute_notebooks: force
+copyright: "2026"
 
 repository:
   url: https://github.com/rkalescky/robert.kalescky.org
@@ -12,5 +9,25 @@ repository:
   branch: main
 
 html:
-  use_issues_button: true
+  favicon: favicon.svg
   use_repository_button: true
+
+sphinx:
+  config:
+    html_baseurl: https://robert.kalescky.org/
+    myst_html_meta:
+      description: >-
+        Dr. Robert Kalescky, Principal Computational Scientist at The Answer
+        Project (TAP Sciences) and Adjunct Professor of Data Science at Southern
+        Methodist University, working in computational drug design, molecular
+        simulation, scientific machine learning, and high-performance computing.
+      author: Robert Kalescky
+      "property=og:site_name": Robert Kalescky
+      "property=og:title": Dr. Robert Kalescky
+      "property=og:type": profile
+      "property=og:url": https://robert.kalescky.org/
+      "property=og:image": https://robert.kalescky.org/_static/robert_kalescky.jpg
+      "property=og:description": >-
+        Computational drug design, molecular simulation, scientific machine
+        learning, and high-performance computing.
+      "name=twitter:card": summary
